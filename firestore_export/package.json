@@ -1,0 +1,22 @@
+{
+  "name": "firestore-export",
+  "version": "1.0.0",
+  "description": "Export all Firestore collections and documents to JSON",
+  "main": "export_firestore.js",
+  "type": "module",
+  "scripts": {
+    "export": "node export_firestore.js",
+    "export:help": "echo Usage: npm run export [path-to-serviceAccountKey.json]"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "export"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
+
